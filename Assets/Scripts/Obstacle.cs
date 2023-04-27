@@ -7,7 +7,7 @@ public class Obstacle : MonoBehaviour
     private float topEdge;
 
     private void Start() {
-        topEdge = Camera.main.ScreenToWorldPoint(Vector3.zero).y + 2f;
+        topEdge = Camera.main.ScreenToWorldPoint(Vector3.zero).y + 1f;
     }
 
     public void Update()
